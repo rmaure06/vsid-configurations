@@ -1,0 +1,159 @@
+{
+  "LFST": {
+    "elevation": 505,
+    "runways": "05,23",
+    "transAlt": 7000,
+    "maxInitialClimb": 9000,
+    "appSI": "EE,STA",
+    "intersections": {
+    "05": "H,G",
+    "23": "E,F"
+    },
+    "sids": {
+      "POGOL": {
+        "Y": {
+          "1": {
+            "rwy": "05",
+            "initial": 9000,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "Z": {
+          "1": {
+            "rwy": "23",
+            "initial": 9000,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "23",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "BERUG": {
+        "M": {
+          "1": {
+            "rwy": "05",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "EPIKO": {
+        "M": {
+          "1": {
+            "rwy": "05",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "GTQ": {
+        "M": {
+          "1": {
+            "rwy": "05",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "23",
+            "initial": 7000,
+            "prio": 2,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        },
+        "L": {
+          "1": {
+            "rwy": "23",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "LUPEN": {
+        "M": {
+          "1": {
+            "rwy": "05",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "23",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "MIRGU": {
+        "H": {
+          "1": {
+            "rwy": "23",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      },
+      "SUL": {
+        "N": {
+          "1": {
+            "rwy": "05",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        },
+        "S": {
+          "1": {
+            "rwy": "23",
+            "initial": 0,
+            "prio": 1,
+            "equip": {
+              "NON-RNAV": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
